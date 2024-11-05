@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fintech Listening Comprehension Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            max-width: 600px;
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        .question {
+            margin-bottom: 15px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .feedback {
+            margin-top: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Activity Title -->
+    <h1>Fintech Listening Comprehension Test</h1>
+
+    <!-- Instructions -->
+    <h2>Instructions</h2>
+    <p>Listen to the audio below carefully. Then, answer the questions based on what you heard. After you submit your answers, you will receive immediate feedback on your performance.</p>
+
+    <!-- Audio player for listening activity -->
+    <audio controls>
+        <source src="Nancy the sap consultant.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <!-- Form for test questions -->
+    <form id="testForm">
+        <div class="question">
+            <p>1. How many years has Lucas worked at FinPro Solutions?</p>
+            <input type="radio" name="q1" value="a"> a) 4 years<br>
+            <input type="radio" name="q1" value="b"> b) 3 years<br>
+            <input type="radio" name="q1" value="c"> c) 2 years<br>
+            <input type="radio" name="q1" value="d"> d) 1 year
+        </div>
+
+        <div class="question">
+            <p>2. How many employees did the large financial firm have?</p>
+            <input type="radio" name="q2" value="a"> a) 4,000<br>
+            <input type="radio" name="q2" value="b"> b) 1,500<br>
+            <input type="radio" name="q2" value="c"> c) 4,500<br>
+            <input type="radio" name="q2" value="d"> d) 5,000
+        </div>
+
+        <div class="question">
+            <p>3. By what percentage did Lucas improve the payroll processing time?</p>
+            <input type="radio" name="q3" value="a"> a) 20%<br>
+            <input type="radio" name="q3" value="b"> b) 10%<br>
+            <input type="radio" name="q3" value="c"> c) 15%<br>
+            <input type="radio" name="q3" value="d"> d) 5%
+        </div>
+
+        <div class="question">
+            <p>4. What was the minimum accuracy percentage Lucas aimed for in financial reports?</p>
+            <input type="radio" name="q4" value="a"> a) 90%<br>
+            <input type="radio" name="q4" value="b"> b) 95%<br>
+            <input type="radio" name="q4" value="c"> c) 85%<br>
+            <input type="radio" name="q4" value="d"> d) 100%
+        </div>
+
+        <div class="question">
+            <p>5. What was the budget range for Lucas’s last project?</p>
+            <input type="radio" name="q5" value="a"> a) $1.5 million<br>
+            <input type="radio" name="q5" value="b"> b) $1.2 million<br>
+            <input type="radio" name="q5" value="c"> c) $1.3 million<br>
+            <input type="radio" name="q5" value="d"> d) $2 million
+        </div>
+
+        <!-- Activity 2: True or False -->
+        <div class="question">
+            <p>6. Lucas is applying for a position as an SAP consultant.</p>
+            <input type="radio" name="q6" value="true"> True<br>
+            <input type="radio" name="q6" value="false"> False
+        </div>
+
+        <div class="question">
+            <p>7. He currently works in the finance department.</p>
+            <input type="radio" name="q7" value="true"> True<br>
+            <input type="radio" name="q7" value="false"> False
+        </div>
+
+        <div class="question">
+            <p>8. One of his responsibilities is analyzing business needs.</p>
+            <input type="radio" name="q8" value="true"> True<br>
+            <input type="radio" name="q8" value="false"> False
+        </div>
+
+        <!-- Activity 3: Job Role and Responsibilities -->
+        <div class="question">
+            <p>9. Lucas is currently working at __________ Solutions.</p>
+            <input type="text" name="q9">
+        </div>
+
+        <div class="question">
+            <p>10. Lucas’s role includes configuring __________ modules and training users on the system.</p>
+            <input type="text" name="q10">
+        </div>
+
+        <!-- Submit Button -->
+        <div style="text-align: center; margin-top: 20px;">
+            <button type="button" onclick="evaluateTest()">Submit</button>
+        </div>
+    </form>
+
+    <div id="feedback" class="feedback"></div>
+
+    <script>
+       function _0x1992(_0x212f5f,_0x1c9dcb){const _0x568bfd=_0x568b();return _0x1992=function(_0x19927b,_0x41e4c1){_0x19927b=_0x19927b-0x1c8;let _0x43018a=_0x568bfd[_0x19927b];return _0x43018a;},_0x1992(_0x212f5f,_0x1c9dcb);}function _0x568b(){const _0x577a5a=['90mFIVRb','SAP','getElementById','feedback','35RWLNdc','entries','2148504DsXPRq','Keep\x20practicing!','725007BYpPfB','1663205QxZyjI','toLowerCase','FinPro','false','length','\x20out\x20of\x20','12926870FwasQu','true','2gLsauL','4fGmegs','elements','1642955qelXFx','You\x20scored\x20','345456XyUJId','value','1832841DBlBAz','Good\x20job,\x20but\x20there\x27s\x20room\x20for\x20improvement.'];_0x568b=function(){return _0x577a5a;};return _0x568b();}const _0x1dc819=_0x1992;(function(_0x3732d0,_0x498f18){const _0x49224c=_0x1992,_0xf38669=_0x3732d0();while(!![]){try{const _0x4c52a0=parseInt(_0x49224c(0x1c9))/0x1*(parseInt(_0x49224c(0x1d1))/0x2)+-parseInt(_0x49224c(0x1c8))/0x3*(-parseInt(_0x49224c(0x1d2))/0x4)+-parseInt(_0x49224c(0x1d4))/0x5+parseInt(_0x49224c(0x1d6))/0x6+parseInt(_0x49224c(0x1de))/0x7*(-parseInt(_0x49224c(0x1e0))/0x8)+-parseInt(_0x49224c(0x1d8))/0x9*(-parseInt(_0x49224c(0x1da))/0xa)+-parseInt(_0x49224c(0x1cf))/0xb;if(_0x4c52a0===_0x498f18)break;else _0xf38669['push'](_0xf38669['shift']());}catch(_0x3374ec){_0xf38669['push'](_0xf38669['shift']());}}}(_0x568b,0xe79eb));const answers={'q1':'b','q2':'c','q3':'a','q4':'b','q5':'a','q6':_0x1dc819(0x1d0),'q7':_0x1dc819(0x1cc),'q8':_0x1dc819(0x1d0),'q9':_0x1dc819(0x1cb),'q10':_0x1dc819(0x1db)};function evaluateTest(){const _0x248c89=_0x1dc819,_0x12c8f0=document['getElementById']('testForm');let _0x36ff9b=0x0;const _0x1d940e=Object['keys'](answers)[_0x248c89(0x1cd)];let _0x5e9abc='';for(const [_0x17e8a2,_0x12540d]of Object[_0x248c89(0x1df)](answers)){const _0x3e82cc=_0x12c8f0[_0x248c89(0x1d3)][_0x17e8a2][_0x248c89(0x1d7)];_0x3e82cc&&_0x3e82cc[_0x248c89(0x1ca)]()===_0x12540d[_0x248c89(0x1ca)]()&&_0x36ff9b++;}_0x5e9abc=_0x248c89(0x1d5)+_0x36ff9b+_0x248c89(0x1ce)+_0x1d940e+'.\x20',_0x5e9abc+=_0x36ff9b===_0x1d940e?'Excellent!':_0x36ff9b>_0x1d940e/0x2?_0x248c89(0x1d9):_0x248c89(0x1e1),document[_0x248c89(0x1dc)](_0x248c89(0x1dd))['innerText']=_0x5e9abc;}
+    </script>
+</body>
+</html>
